@@ -1,0 +1,224 @@
+/* 
+  TEXT ELEMENTS -------------------
+*/
+body {
+  font-family: 'Lato', serif;
+  margin: 0;
+  color: #3F504F;
+  /*padding: 2rem;*/
+  background-color: #e7f0ae;
+  
+}
+h1 {
+  font-family: 'Gotham', sans-serif;
+}
+
+h2 {
+  font-family: 'Gotham', sans-serif;
+  color: #6963A3;
+  
+}
+
+h3 {
+  font-family: 'Gotham', sans-serif;
+  color: #6963A3;
+}
+
+h4 {
+  font-family: 'Gotham', sans-serif;
+}
+
+.gotham_font {
+  font-family: 'Gotham', sans-serif;
+}
+.lato_font {
+  font-family: 'Lato', sans-serif;
+}
+
+p, ol, ul {
+	max-width: 70rem;
+}
+
+/* 
+  STYLE ELEMENTS -------------------
+*/
+
+#header { /*CSS for the purple bar header at the top of the website*/
+  background-color: #B7A1DA;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 0;
+  margin: 0;
+}
+
+#footer { /*CSS for the black bar footer at the bottom of the website*/
+  background-color: #3F504F;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border: 0;
+  margin: 0;
+  
+}
+#footer a:link {
+  color: #CDF0CE
+}
+#footer a:visited {
+color: #B7A1DA
+}
+
+
+.wrapper{ /*Wrapper to add margins to the website, Base loosely on: https://css-tricks.com/best-way-implement-wrapper-css*/
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0;
+  
+}
+
+.segment{ /*Segments sort each section into white boxes*/
+  margin: 0;
+  padding: 1rem 1.5rem;
+  border: 0;
+  background:white;
+  border-radius: 25px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  
+}
+
+.element {
+  /* Dividers between sections with segments*/
+  margin-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: #CDF0CE;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+.icon{
+  /*Class called for all icon images*/
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.round-img {
+  /*rounds the corners of an image, https://www.w3schools.com/howto/howto_css_rounded_images.asp*/
+  border-radius: 50%;
+}
+
+.center {
+  /*centers objects inside a flexbox container*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  min-width: 10em;
+  height: auto;
+  text-align: center;
+}
+
+.right-align{
+	text-align: right;
+}
+
+
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/*Header Bar Buttons*/
+.head-nav-item {
+	font-family: 'Gotham', sans-serif;
+  display: inline-block;
+	color: white;
+	background-color:  #555;
+
+	font-size: 1.25rem;
+	padding: 0.25rem 0.5rem;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+	text-decoration: none;
+  text-align: center;
+	transition: background-color 0.5s ease-out;
+}
+.head-nav-item:active, .head-nav-item:hover, .head-nav-item:focus {
+	color: white;
+	background-color: rgb(50,50,50);
+}
+
+/*Navigation Buttons*/
+.button-nav {
+  font-family: 'Gotham', sans-serif;
+  display: inline-block;
+  padding: 1rem;
+  color: #3F504F;
+  border: 3px solid  #3F504F;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+.button-nav:hover, .button-nav:focus {
+  color: white;
+  background-color: #3F504F;
+}
+
+/* Input Buttons */
+input[type=submit], input[type=reset], button {
+  border-radius: 1rem;
+  border: solid #6963A3;
+  background-color: white;
+  padding: 0.5rem;
+  width: 5rem;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+input[type=submit]:hover, input[type=submit]:focus, input[type=reset]:hover, input[type=reset]:focus, button:focus, button:hover, .btn:hover, .btn:focus {
+  background-color: #B7A1DA;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+/*Input Text Field*/
+input[type=text] {
+  border: 2px solid #555;
+  border-radius: 5px;
+}
+input[type=text]:focus, input[type=text]:hover{
+  background-color: #e1f0d3;
+}
+
+/*Web Links*/
+.link {
+  color:#6963A3;
+}
+.link:hover, .link:focus {
+  color: #B7A1DA;
+  transition-duration: 0.5s;
+}
+
+/*Image Hover*/
+.image-link:hover, .image-link:focus {
+  /* Opacity is lowered when clicked on */
+  opacity: 0.5;
+  transition-duration: 0.5s;
+}
+
+/*Buttons for the checkout cart*/
+.btn{ 
+	width: 30px;
+	height: 30px;
+  
+	border-radius: 50%; /*round corners*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+  border: solid #6963A3;
+  background-color: white;
+  transition-duration: 0.5s;
+}
