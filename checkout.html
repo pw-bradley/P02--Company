@@ -86,36 +86,36 @@
       <!-- PAYMENT FORM SECTION // -->
       <section id="payment_form" class="segment">
         <h2 class="center">Payment Form</h2>
+        <h3>Payment Methods</h3>
 
-        <h3>Credit Card</h3>
-        <div class="box">
-          <label for="fname"> First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Jane">
-          <label for="lname"> Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Doe">
-        </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-50">
+                <label for="fname"> First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Jane">
+                <label for="cname">Name on Card</label>
+                <input type="text" id="cname" name="cardname" placeholder="Jane Doe">
+                <label for="expmonth">Exp Month</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                <label>
+                  <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                </label>
+              </div>
+            
 
-        <div class="box">
-          <label for="cname">Name on Card</label>
-          <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-          <label for="ccnum">Credit card number</label>
-          <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-          <label for="expmonth">Exp Month</label>
-          <input type="text" id="expmonth" name="expmonth" placeholder="September">
-        </div>
+              <div class="col-50">
+                <label for="lname"> Last Name</label> 
+                <input type="text" id="lname" name="lastname" placeholder="Doe">
+                <label for="ccnum">Credit card #</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2023">
 
-        <div class="box">
-          <label for="expyear">Exp Year</label>
-          <input type="text" id="expyear" name="expyear" placeholder="2023">
-          <label for="cvv">CVV</label>
-          <input type="text" id="cvv" name="cvv" placeholder="321">
-        </div>
+                <input type="submit" value="Continue" class="center">
+              </div>
+            </div>
+          </div>
 
-        <label>
-          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
-        </label>
-
-        <input type="submit" value="Continue" class="btn">
       </section>
     </div>
     <!-- // PAYMENT FORM SECTION -->
