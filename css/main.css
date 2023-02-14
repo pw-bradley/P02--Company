@@ -1,3 +1,8 @@
+/* NOTES
+    - Headings sizes seem out of order, H2 is largest?
+    - 
+*/
+
 /* 
   TEXT ELEMENTS -------------------
 */
@@ -9,22 +14,19 @@ body {
   background-color: #e7f0ae;
   
 }
-h1 {
-  font-family: 'Gotham', sans-serif;
-}
 
-h2 {
+h1 {
   font-family: 'Gotham', sans-serif;
   color: #6963A3;
   
 }
 
-h3 {
+h2 {
   font-family: 'Gotham', sans-serif;
   color: #6963A3;
 }
 
-h4 {
+h3 {
   font-family: 'Gotham', sans-serif;
 }
 
@@ -221,4 +223,46 @@ input[type=text]:focus, input[type=text]:hover{
   border: solid #6963A3;
   background-color: white;
   transition-duration: 0.5s;
+}
+
+
+
+/*Checkout Information CSS */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+  font-family: 'Lato', sans-serif;
+}
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  padding: 0 16px;
+}
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+input[type=text ] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+input[type=post] {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+label {
+  margin-bottom: 10px;
+  display: block;
 }
