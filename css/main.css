@@ -1,8 +1,3 @@
-/* NOTES
-    - Headings sizes seem out of order, H2 is largest?
-    - 
-*/
-
 /* 
   TEXT ELEMENTS -------------------
 */
@@ -11,8 +6,7 @@ body {
   margin: 0;
   color: #3F504F;
   /*padding: 2rem;*/
-  background-color: #e7f0ae;
-  
+  background-color: #e1dae4;
 }
 
 h1 {
@@ -38,7 +32,7 @@ h3 {
 }
 
 p, ol, ul {
-	max-width: 70rem;
+	max-width: 50rem;
 }
 
 /* 
@@ -133,24 +127,63 @@ img{
   INTERACTIVE ELEMENTS -------------------
 */
 
-/*Header Bar Buttons*/
+/*Header Bar Container*/
+.nav-main{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* Header Bar Items */
 .head-nav-item {
 	font-family: 'Gotham', sans-serif;
   display: inline-block;
 	color: white;
-	background-color:  #555;
+	background-color: none;
+
+  /* border: black solid 1px; */
+  border-radius: 2rem;
 
 	font-size: 1.25rem;
-	padding: 0.25rem 0.5rem;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top:1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
 	text-decoration: none;
   text-align: center;
 	transition: background-color 0.5s ease-out;
 }
 .head-nav-item:active, .head-nav-item:hover, .head-nav-item:focus {
 	color: white;
-	background-color: rgb(50,50,50);
+	background-color: #6963A3;
+}
+
+
+/* Header Bar Main logo item */
+.logo-image{
+  background-color: none;
+  color: none;
+  /* border: black solid 1px; */
+  max-width: 20rem;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+
+  max-height: 10rem;
+
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+.logo-image:hover{
+  opacity: 0.75;
+}
+
+.logo-box{
+  /* border: 1px black solid; */
+  text-align: center;
 }
 
 /*Navigation Buttons*/
@@ -266,3 +299,37 @@ label {
   margin-bottom: 10px;
   display: block;
 }
+
+
+/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  /* make nav into row */
+  .nav-main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }  
+
+  /* make small, middle aligned nav buttons */
+  .head-nav-item{
+    align-self: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
