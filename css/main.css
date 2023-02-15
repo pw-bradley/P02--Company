@@ -105,6 +105,27 @@ img{
   border-radius: 50%;
 }
 
+
+.colour-palette-block{
+	font-family: 'Gotham', sans-serif;
+  color: white;
+  background-color: grey;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10rem;
+}
+.colour-1{  background-color: #6963A3;  }
+.colour-2{  background-color: #B7A1DA;  }
+.colour-3{  background-color: #E1DAE4; color: black   }
+.colour-4{  background-color: #CDF0CE; color: black;  }
+.colour-5{  background-color: #3F504F;  }
+
+
 .center {
   /*centers objects inside a flexbox container*/
   display: block;
