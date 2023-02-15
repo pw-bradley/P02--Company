@@ -11,27 +11,23 @@ body {
 
 h1 {
   font-family: 'Gotham', sans-serif;
-  /* color: #6963A3; */
-  color: red;
+  color: #6963A3;
   font-size: 3rem;
   
 }
 
 h2 {
   font-family: 'Gotham', sans-serif;
-  /* color: #6963A3; */
-  color: blue;
+  color: #6963A3;
   font-size: 1.5rem;
 }
 
 h3 {
   font-family: 'Gotham', sans-serif;
-  color: green;
 }
 
 h4 {
   font-family: 'Gotham', sans-serif;
-  color: rgb(231, 0, 231);
 }
 
 .gotham_font {
