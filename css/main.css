@@ -110,8 +110,8 @@ img{
 	font-family: 'Gotham', sans-serif;
   color: white;
   background-color: grey;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
   padding-top: 2rem;
   padding-bottom: 2rem;;
   margin-left: 1rem;
@@ -211,9 +211,20 @@ img{
 .button-nav {
   font-family: 'Gotham', sans-serif;
   display: inline-block;
-  padding: 1rem;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
   color: #3F504F;
-  border: 3px solid  #3F504F;
+  border: 3px solid  #3f504f52;
+  border-radius: 1.5rem;
   text-decoration: none;
   transition-property: background-color; 
   transition-duration: 0.5s;
