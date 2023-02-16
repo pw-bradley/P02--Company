@@ -3,40 +3,6 @@
   Greg Withers  - 301382375
 
 	P02 Check In - February 15, 2023
-
-    Requirements for FEB 15 Deliverable
-      DONE - updates/events pages  ==> Greg
-      DONE - about the company     ==> Greg
-      DONE - user feedback area    ==> Percy
-    - DONE - Stack menu bar for phone
-    - DONE - White letters in header image?
-    - DONE - revise color palette with hex code CSS
-    - DONE - update background color
-    - popup menu description?
-    - add large banner image?
-    - DONE - set paragraph width limit?
-    - add footer with social links and copyright info
-    - DONE - continue button padding is weird
-    - DONE - round button corners to match round/gentle aesthetic
-    - DONE - Revise Header hierarchy in html, style in css
-
-    MENU:
-    - menu add "add to cart" feature
-    CHECKOUT:
-    - clean up checkout cart
-    - margin between images in checkout cart is too tight
-    UPDATES:
-    - maybe could be put into a flex box with an image on the right? - with a lorem ipsum paragraph
-    ABOUT US:
-    - **feedback form's final input is not indented and I can't figure this out -_-
-    - DONE - **P02 Weekly check says we should a "how to contact the company"
-    
- Remember: 
-    - HTML LANG ENGLISH, ALT tags for all images, and HTML should be semantic!
-    - Branding MUST be consistent
-    - Set :hover, :active, :focus for interactives/links
-    - Accessibility can be checked via W3C
-    - Work from small format to large format
 -->
 
 <!doctype html>
@@ -67,7 +33,7 @@
           <!-- Top Header/Nav bar, logo acts as home button-->
           <div class="logo-box">
             <a href="index.html">
-              <img class="logo-image" src="img/icons/Celestial_Sweets_logo.png">
+              <img class="logo-image" alt="Celestial Sweets" src="img/icons/Celestial_Sweets_logo.png">
             </a>
           </div>
        
@@ -84,13 +50,11 @@
     
     
     <div class="wrapper">
-      <section id="interactive_elements" class="segment">
-
-      <h1 class="center">Style Guide</h1>
-      </section>
 
       <!-- INTERACTIVE ELEMENTS SECTION // -->
+      
       <section id="interactive_elements" class="segment">
+        <h1 class="center">Style Guide</h1>
         <h2 class="center">Interactive Elements</h2>
 
         <!-- white box segments -->
@@ -231,8 +195,9 @@
               <h3>Checkout Cart</h3>
               <div class="center">
                 <a class="button-nav" href="checkout.html">Checkout Page</a>
-                <p>Moved to different page.</p>
+                
               </div>
+              <p class="center-align">Moved to different page.</p>
             </section>
           </div>
         </div>
@@ -247,11 +212,7 @@
         <div class="center">
           <a class="button-nav" href="about.html">About Us Page</a>
           <p>Moved to different page.</p>
-          </div>
-
-
-       
-        </section>
+        </div>
       </section>
       <!-- // BRANDING IDEAS  SECTION -->
   

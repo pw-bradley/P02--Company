@@ -40,7 +40,8 @@
 	-webkit-flex: 1 1 18em;
 	-ms-flex: 1 1 18em;
 	flex: 1 1 18em;
-	padding-right: 1rem;
+	padding-right: 2rem;
+	padding-left: 2rem;
 }
 .box-item-counter { /*flexbox for checkout counter (+1 and -1 to total)*/
 	width: 15%;
@@ -50,11 +51,9 @@
 
 
 @media (min-width: 50.25em) {
-
 	.box-item-image {
 		-webkit-order: 2;
 		-ms-order: 2;
 		order: 2;
 	}
-
 }

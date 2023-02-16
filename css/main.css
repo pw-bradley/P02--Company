@@ -5,7 +5,6 @@ body {
   font-family: 'Lato', serif;
   margin: 0;
   color: #3F504F;
-  /*padding: 2rem;*/
   background-color: #e1dae4;
 }
 
@@ -41,6 +40,7 @@ p, ol, ul {
 	max-width: 40rem;
 }
 
+
 /* 
   STYLE ELEMENTS -------------------
 */
@@ -48,8 +48,7 @@ p, ol, ul {
 #header { /*CSS for the purple bar header at the top of the website*/
   background-color: #B7A1DA;
   color: white;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 7rem;
   border: 0;
   margin: 0;
 }
@@ -72,10 +71,7 @@ color: #B7A1DA
 
 
 .wrapper{ /*Wrapper to add margins to the website, Base loosely on: https://css-tricks.com/best-way-implement-wrapper-css*/
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 0;
-  
+  margin: 0% 10% 0;
 }
 
 .segment{ /*Segments sort each section into white boxes*/
@@ -91,7 +87,7 @@ color: #B7A1DA
 
 .element {
   /* Dividers between sections with segments*/
-  margin-bottom: 2rem;
+  margin: 0 2rem 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
   border-top-color: #CDF0CE;
@@ -101,18 +97,25 @@ img{
   max-width: 100%;
   height: auto;
 }
-.icon{
-  /*Class called for all icon images*/
-  width: 1.5rem;
-  height: 1.5rem;
-}
-.round-img {
+.round-img, .update-img, .menu-img {
   /*rounds the corners of an image, https://www.w3schools.com/howto/howto_css_rounded_images.asp*/
   border-radius: 50%;
 }
-
+.update-img {
+  padding: 1rem;
+  max-width: 200px;
+  max-height: 200px;
+}
+.menu-img {
+  width: 50%;
+  min-width: 200px;
+  min-width: 200px;
+  max-width: 300px; 
+  max-height: 300px;
+}
 
 .colour-palette-block{
+  /*blocks used to show colours in the style guide*/
 	font-family: 'Gotham', sans-serif;
   color: white;
   background-color: grey;
@@ -127,20 +130,21 @@ img{
 }
 .colour-1{  background-color: #6963A3;  }
 .colour-2{  background-color: #B7A1DA;  }
-.colour-3{  background-color: #E1DAE4; color: black   }
-.colour-4{  background-color: #CDF0CE; color: black;  }
+.colour-3{  background-color: #E1DAE4; color: #3F504F  }
+.colour-4{  background-color: #CDF0CE; color: #3F504F;  }
 .colour-5{  background-color: #3F504F;  }
 
 
 .center {
   /*centers objects inside a flexbox container*/
+  max-width: 100%  !important;
   display: block;
   margin-left: 1rem;
   margin-right: 1rem;
-  /* width: 50%; */
-  /* min-width: 10em; */
+  
   height: auto;
   text-align: center;
+  
 }
 
 .right-align{
@@ -166,7 +170,6 @@ img{
 	font-family: 'Gotham', sans-serif;
   display: inline-block;
 	color: white;
-	background-color: none;
 
   /* border: black solid 1px; */
   border-radius: 2rem;
@@ -191,8 +194,6 @@ img{
 
 /* Header Bar Main logo item */
 .logo-image{
-  background-color: none;
-  color: none;
   /* border: black solid 1px; */
   max-width: 20rem;
   margin: 0;
@@ -261,7 +262,7 @@ input[type=text] {
   border: 2px solid #555;
   border-radius: 5px;
 }
-input[type=text]:focus, input[type=text]:hover{
+input[type=text]:focus, input[type=text]:hover, textarea:focus, textarea:hover{
   background-color: #e1f0d3;
 }
 
@@ -310,13 +311,20 @@ input[type=text]:focus, input[type=text]:hover{
 .col-50 {
   -ms-flex: 50%; /* IE10 */
   flex: 50%;
+}
+.col-100 {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+}
+.col-50, .col-100 {
   padding: 0 16px;
 }
+
 .container {
   background-color: #f2f2f2;
-  padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
+  padding: 2rem 1rem 1.5rem 1rem;
+  border-radius: 1rem;
+  min-width: 10rem;
 }
 input[type=text ] {
   width: 100%;
@@ -325,10 +333,10 @@ input[type=text ] {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-input[type=post] {
+textarea {
+  font-family: 'Lato', serif;
   width: 100%;
   margin-bottom: 20px;
-  margin-left: 10px;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 3px;
