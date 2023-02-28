@@ -18,14 +18,109 @@
         <title>Celestial Sweets | Home</title> 
 
         <link href="css/main.css" rel="stylesheet">
-		<link href="css/flexbox.css" rel="stylesheet">
+		    <link href="css/flexbox.css" rel="stylesheet">
         <link href="css/fonts.css" rel="stylesheet"> 
+
+        <!-- hamburger cut/paste -->
+        <link rel="stylesheet" href="css/hamburger.css">
+        <link rel="stylesheet" href="css/grid.css">
 
     </head>
 
 
     <body>
-        <!-- WEBSITE TITLE -->
+
+
+      <!-- hamber cut/paste -->
+
+      <header id="top">
+
+        <h1>My Hidden Navigation</h1>
+  
+        <!--
+          Note that below we have added a series of ARIA attributes to do the following:
+            'aria-hidden' sets whether this element should be shown or hidden in the accessibility tree.
+            'aria-expanded' specifies whether the corresponding elements have been expanded or not.
+            'aria-controls' indicates what elements are controlled by the current element.
+  
+          More good information on how ARIA http://rawgit.com/w3c/aria-in-html/master/index.html
+        -->
+        <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button>
+  
+        <nav id="nav-items" class="grid">
+  
+          <div class="col-1of6">
+            <a href="#kittens" class="button-bg1">To the kittens!</a>
+          </div>
+  
+          <div class="col-1of6">
+            <a href="#puppies" class="button-bg2">To the puppies!</a>
+          </div>
+  
+          <div class="col-1of6">
+            <a href="http://flickholdr.com/" class="button-bg3">Flickholdr</a>
+          </div>
+  
+          <div class="col-1of6">
+            <a href="http://placekitten.com/" class="button-bg4">Placekitten</a>
+          </div>
+  
+          <div class="col-1of6">
+            <a href="http://placehold.it/" class="button-bg5">Placehold.it</a>
+          </div>
+  
+          <div class="col-1of6">
+            <a href="http://lorempixel.com/" class="button-bg6">Lorem Pixel</a>
+          </div>
+  
+        </nav>
+  
+      </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- WEBSITE TITLE -->
         <div id="header">
 
             <!-- main nav stuff/container -->
@@ -305,5 +400,10 @@
         </div>
       </div>
     </section>
+
+
+    <script src="js/hamburger.js"></script>
+
+
   </body>
 </html>
