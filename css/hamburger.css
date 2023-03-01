@@ -31,34 +31,31 @@
 	display: none;
 }
 
-.button-bg1 {
-	background-color: #B7A1DA;
-}
+/* Colour the new menu buttons so they don't affect the rest of the document */
+.button-bg1 {background-color: #B7A1DA;}
+.button-bg1:hover {background-color: #6963A3;}
 
-.button-bg2 {
-	background-color: #B7A1DA;
-}
+.button-bg2 {background-color: #B7A1DA;}
+.button-bg2:hover {background-color: #6963A3;}
 
-.button-bg3 {
-	background-color: #B7A1DA;
-}
+.button-bg3 {background-color: #B7A1DA;}
+.button-bg3:hover {background-color: #6963A3;}
 
-.button-bg4 {
-	background-color: #B7A1DA;
-}
+.button-bg4 {background-color: #B7A1DA;}
+.button-bg4:hover {background-color: #6963A3;}
 
-.button-bg5 {
-	background-color: #B7A1DA;
-}
+.button-bg5 {background-color: #B7A1DA;}
+.button-bg5:hover {background-color: #6963A3;}
 
-.button-bg6 {
-	background-color: #B7A1DA;
-}
+.button-bg6 {background-color: #B7A1DA;}
+.button-bg6:hover {background-color: #6963A3;}
+
 
 a:hover, a:active, a:focus {
-	background-color: #6963A3;
+	/* background-color: #6963A3; */
 	color: white;
 }
+
 
 .header-link{
 	display: flex;

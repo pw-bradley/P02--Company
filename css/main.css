@@ -45,13 +45,14 @@ p, ol, ul {
   STYLE ELEMENTS -------------------
 */
 
-#header { /*CSS for the purple bar header at the top of the website*/
+/*CSS for the purple bar header at the top of the website*/
+/* #header { 
   background-color: #B7A1DA;
   color: white;
   padding: 1rem 7rem;
   border: 0;
   margin: 0;
-}
+} */
 
 #footer { /*CSS for the black bar footer at the bottom of the website*/
   background-color: #3F504F;
@@ -173,19 +174,18 @@ img{
 
 
 /*Header Bar Container*/
-.nav-main{
+/* .nav-main{
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
+} */
 
 /* Header Bar Items */
-.head-nav-item {
+/* .head-nav-item {
 	font-family: 'Gotham', sans-serif;
   display: inline-block;
 	color: white;
 
-  /* border: black solid 1px; */
   border-radius: 2rem;
 
 	font-size: 1.25rem;
@@ -199,7 +199,8 @@ img{
 	text-decoration: none;
   text-align: center;
 	transition: background-color 0.5s ease-out;
-}
+} */
+
 .head-nav-item:active, .head-nav-item:hover, .head-nav-item:focus {
 	color: white;
 	background-color: #6963A3;
@@ -224,7 +225,6 @@ img{
 }
 
 .logo-box{
-  /* border: 1px black solid; */
   text-align: center;
 }
 
@@ -379,16 +379,16 @@ label {
 @media only screen and (min-width: 768px) {
 
   /* make nav into row */
-  .nav-main{
+  /* .nav-main{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }  
+  }   */
 
   /* make small, middle aligned nav buttons */
-  .head-nav-item{
+  /* .head-nav-item{
     align-self: center;
-  }
+  } */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
