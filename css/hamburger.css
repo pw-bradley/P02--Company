@@ -8,6 +8,7 @@
 	visibility: visible;
 	width: 100%;
 	text-align: left;
+	font-size: 1.2rem;
 }
 
 
@@ -30,41 +31,38 @@
 	display: none;
 }
 
-
 .button-bg1 {
-	background-color: green;
+	background-color: #B7A1DA;
 }
 
 .button-bg2 {
-	background-color: orange;
+	background-color: #B7A1DA;
 }
 
 .button-bg3 {
-	background-color: purple;
+	background-color: #B7A1DA;
 }
 
 .button-bg4 {
-	background-color: red;
+	background-color: #B7A1DA;
 }
 
 .button-bg5 {
-	background-color: black;
+	background-color: #B7A1DA;
 }
 
 .button-bg6 {
-	background-color: blue;
+	background-color: #B7A1DA;
 }
-
 
 a:hover, a:active, a:focus {
 	background-color: #6963A3;
 	color: white;
 }
 
-
 body {
 	font-family: 'Lato', Arial, Verdana, sans-serif;
-	font-size: 1em; 
+	font-size: 1rem; 
 	color: black;
 	padding: 1em;
 }
