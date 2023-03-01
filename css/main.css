@@ -158,6 +158,20 @@ img{
   INTERACTIVE ELEMENTS -------------------
 */
 
+/* New Header Banner Image FEB27 */
+.header-banner{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #B7A1DA;
+}
+
+.top-banner-logo{
+  max-width: 50%;
+}
+
+
 /*Header Bar Container*/
 .nav-main{
   display:flex;
