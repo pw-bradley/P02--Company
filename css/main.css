@@ -346,6 +346,9 @@ input[type=text ] {
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 3px;
+  display: flex;
+  justify-content: start;
+  margin-left: 2rem;
 }
 textarea {
   font-family: 'Lato', serif;
@@ -357,7 +360,9 @@ textarea {
 }
 label {
   margin-bottom: 10px;
-  display: block;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: start;
 }
 
 .bold-inline-text{
