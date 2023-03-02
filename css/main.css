@@ -210,16 +210,16 @@ img{
 /* Header Bar Main logo item */
 .logo-image{
   /* border: black solid 1px; */
-  max-width: 20rem;
-  margin: 0;
+  max-width: 3rem;
+  max-height: 3rem;
+
+  margin: 1%;
   text-align: center;
   justify-content: center;
-
-  max-height: 10rem;
-
   transition-property: opacity;
   transition-duration: 0.5s;
 }
+
 .logo-image:hover{
   opacity: 0.75;
 }
