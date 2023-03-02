@@ -341,14 +341,14 @@ input[type=text]:focus, input[type=text]:hover, textarea:focus, textarea:hover{
   min-width: 10rem;
 }
 input[type=text ] {
-  width: 90%;
+  width: 80%;
   margin-bottom: 20px;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 3px;
   display: flex;
   justify-content: start;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 textarea {
   font-family: 'Lato', serif;
@@ -360,7 +360,7 @@ textarea {
 }
 label {
   margin-bottom: 10px;
-  margin-left: 2rem;
+  margin-left: 1rem;
   display: flex;
   justify-content: start;
 }
