@@ -398,6 +398,15 @@ fieldset label {
   padding: 0;
   white-space: nowrap; 
 }
+fieldset {
+  float: left;
+  width: half the area;
+  }
+fieldset label {
+  display: inline;
+  padding: 0;
+  white-space: nowrap; 
+}
 
 .bold-inline-text{
   font-weight: bold;
