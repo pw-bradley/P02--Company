@@ -391,7 +391,7 @@ label {
 }
 fieldset {
   float: left;
-  width: half the area;
+  width: 50%;
   }
 fieldset label {
   display: inline;
