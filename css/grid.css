@@ -17,6 +17,7 @@
 .grid{
 	padding-left: 10%;
 	padding-right: 10%;
+	background-color: #B7A1DA;
 }
 
 .grid:after {
