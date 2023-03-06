@@ -130,18 +130,24 @@ img{
   padding: 1rem;
 }
 
+.palette-container{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+
 .colour-palette-block{
   /*blocks used to show colours in the style guide*/
 	font-family: 'Gotham', sans-serif;
   color: white;
   background-color: grey;
-  padding-left: 8rem;
-  padding-right: 8rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  margin-bottom: 1rem;
   border-radius: 10rem;
 }
 .colour-1{  background-color: #6963A3;  }
@@ -187,34 +193,6 @@ img{
   max-width: 50%;
 }
 
-
-/*Header Bar Container*/
-/* .nav-main{
-  display:flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-} */
-
-/* Header Bar Items */
-/* .head-nav-item {
-	font-family: 'Gotham', sans-serif;
-  display: inline-block;
-	color: white;
-
-  border-radius: 2rem;
-
-	font-size: 1.25rem;
-  
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 0.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-
-	text-decoration: none;
-  text-align: center;
-	transition: background-color 0.5s ease-out;
-} */
 
 .head-nav-item:active, .head-nav-item:hover, .head-nav-item:focus {
 	color: white;
@@ -411,23 +389,10 @@ fieldset label {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
-  /* make nav into row */
-  /* .nav-main{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }   */
-
-  /* make small, middle aligned nav buttons */
-  /* .head-nav-item{
-    align-self: center;
-  } */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
