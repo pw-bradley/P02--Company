@@ -1,7 +1,11 @@
 <!-- 
 	Percy Bradley - 301363216
   Greg Withers  - 301382375
-	P02 Check In - March 1st, 2023
+	P02 Check In 3 - March 8th, 2023
+
+  Reference: 
+
+  - Form quantity input info https://www.w3schools.com/tags/att_input_type_number.asp
 -->
 
 <!doctype html>
@@ -20,6 +24,7 @@
         <link rel="stylesheet" href="css/fonts.css"> 
         <link rel="stylesheet" href="css/hamburger.css">
         <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/menu.css">
 
     </head>
 
@@ -68,140 +73,114 @@
       </nav>
     </header>
     
+  
     <div class="wrapper">
        <!-- MENU SECTION // -->
       <section id="product-page" class="segment">
         <h1 class="center">Menu</h1>
       
         <div class="element">
-          <section class="box">
-            <div class="box-item-text">
-              <a href="https://www.theapollobox.com/product/sku1567304/space-themed-cup-and-saucer-set--flower-shaped-edge--ceramic--4-colors" class="image-link">
-                <img src="img/products/tea.jpg" alt="Tea" class="menu-img-big">
-              </a>  
-            </div>
 
-            <div class="box-item-text">
-              <h2 class="center">Milkyway Tea</h2>
+          <!-- Begin New Menu -->
+          <div class="menu-grid">
+
+            <!-- Menu item 1 -->
+            <div class="menu-item">
+              <div class="item-left">
+                <a href="https://www.theapollobox.com/product/sku1567304/space-themed-cup-and-saucer-set--flower-shaped-edge--ceramic--4-colors" class="image-link">
+                  <img class="item-image" src="img/products/tea.jpg" alt="flower-shaped cup of tea on a blue and yellow moon dish. There is a spoon in the tea cup.">
+                </a>
+              </div>
+
+              <div class="item-right">
+                <div class="item-title">
+                  <h2>Milkyway Tea</h2>
+                </div>
+                <div class="item-price">
+                  <h3>$6.20</h3>
+                </div>
+                <div class="item-description">
+                  Out-of-this-world milkiness. Smooth and delicious Earl Grey tea.
+                </div>
+                <div class="item-size-container">
+                  <h3>Size</h3>
+                  <button class="item-size-button">S</button>
+                  <button class="item-size-button">M</button>
+                  <button class="item-size-button">L</button>
+                </div>
+                <div class="item-quantity">
+                  <h3>Quantity</h3>
+                  <input class="item-number" type="number" id="quantity" name="quantity">
+                </div>
+                <button class="item-add-to-cart">add to cart</button>
+              </div>
+            </div>  
+
+            <!-- Menu item 2 -->
+            <div class="menu-item">
+              <div class="item-left">
+                <img class="item-image" src="img/products/animal_cookies.jpg" alt="cookies in the shape of astrological constellations, there is a cat, rabbit, and sea lion.">
+              </div>
+
+              <div class="item-right">
+                <div class="item-title">
+                  <h2>Constellation Cookie</h2>
+                </div>
+                <div class="item-price">
+                  <h3>$2.99</h3>
+                </div>
+                <div class="item-description">
+                  Soft and chewy butter cookie. Get your own or a box and share the whole cosmos!
+                </div>
+                <div class="item-size-container">
+                  <h3>Size</h3>
+                  <button class="item-size-button">Single</button>
+                  <button class="item-size-button">Box</button>
+                </div>
+                <div class="item-quantity">
+                  <h3>Quantity</h3>
+                  <input class="item-number" type="number" id="quantity" name="quantity">
+                </div>
+                <button class="item-add-to-cart">add to cart</button>
+              </div>
+            </div>  
               
-              <div class="box-item-text">
-                <div class="container">
-                  <h3 class="center">Size</h3>
-                  <div class="row">
-
-                    <div class="col-50">
-                      <input type="radio" id="small" name="tea_size" value="small">
-                      <label for="small">Small</label><br>
-                    </div>
-                    <div class="col-50">
-                      <input type="radio" id="large" name="tea_size" value="large">
-                      <label for="large">Large</label><br>
-                    </div>
-
-                  </div>
-                  <h3 class="center">Flavor</h3>
-                  <div class="row">
-                    <div class="col-50">
-                        <input type="radio" id="earl_grey" name="tea_type" value="earl_grey">
-                        <label for="earl_grey">Cream of Earl Grey</label><br>
-                        <input type="radio" id="hibiscus" name="tea_type" value="hibiscus">
-                        <label for="hibiscus">Hibiscus</label><br>
-                        <input type="radio" id="red_velvet" name="tea_type" value="red_velvet">
-                        <label for="red_velvet">Red Velvet</label><br>
-                    </div>
-                    <div class="col-50">
-                      <input type="radio" id="lavender" name="tea_type" value="lavender">
-                      <label for="lavender">Lavender Mint</label><br>
-                      <input type="radio" id="cherry" name="tea_type" value="cherry">
-                      <label for="cherry">Black Cherry Lemon</label><br>
-                      <input type="radio" id="vanilla" name="tea_type" value="vanilla">
-                      <label for="vanilla">Honey Vanilla</label><br>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-100">
-                      <h3>$6.20</h3>
-                      <button class="add-cart-button">
-                        Add to Cart
-                      </button>
-                    </div>
-                  </div>
-                </div>
+            <!-- Menu item 3 -->
+            <div class="menu-item">
+              <div class="item-left">
+                <img class="item-image" src="img/products/cookies.jpg" alt="cookies decorated like swirling galaxies">
               </div>
 
-            </div>
-          </section>
-        </div>
+              <div class="item-right">
+                <div class="item-title">
+                  <h2>Galaxy Cookie</h2>
+                </div>
+                <div class="item-price">
+                  <h3>$2.99</h3>
+                </div>
+                <div class="item-description">
+                  Far out buttercream frosting with a nebula swirl. Get your own or a box and share the love!
+                </div>
+                <div class="item-size-container">
+                  <h3>Size</h3>
+                  <button class="item-size-button">Single</button>
+                  <button class="item-size-button">Box</button>
+                </div>
+                <div class="item-quantity">
+                  <h3>Quantity</h3>
+                  <input class="item-number" type="number" id="quantity" name="quantity">
+                </div>
+                <button class="item-add-to-cart">add to cart</button>
+              </div>
+            </div>  
 
-
-
-        <section class="element">
-          <h2 class="center">Cookies</h2>
-          <div class="box">
-            <div class="box-item-image center">
-              <h2>Constellation Cookie</h2>
-              <h3>$1.30</h3>
-              <a href="https://www.sprinklebakes.com/2017/01/animal-constellation-cookies-and-my.html" class="image-link">
-                <img src="img/products/animal_cookies.jpg" alt="Galaxy Cupcakes"  class="menu-img-small">
-              </a>
-              <!--  <a class="button-nav center" href="#constellation_cookie">See Description</a> -->
-            </div>
-
-            <div class="box-item-image center">
-              <h2>Galaxy Cookie</h2>
-              <h3>$1.50</h3>
-              <a href="https://www.youtube.com/watch?v=5xf1A8q2UA0" class="image-link">
-                <img src="img/products/cookies.jpg" alt="Galaxy Cookies" class="menu-img-small">
-              </a>
-              <!-- <a class="button-nav center" href="#galaxy_cookie">See Description</a> -->
-            </div>
-
-            <div class="box-item-image center">
-              <h2>Milkyway Tea</h2>
-              <h3>$6.20</h3>
-              <a href="https://www.theapollobox.com/product/sku1567304/space-themed-cup-and-saucer-set--flower-shaped-edge--ceramic--4-colors" class="image-link">
-                <img src="img/products/tea.jpg" alt="Tea" class="menu-img-small">
-              </a>
-              <!-- <a class="button-nav center" href="#milky_tea">See Description</a><br> -->
-            </div>
           </div>
+          <!-- End new menu grid -->
 
-          <section class="element">
-            <h2>Product Descriptions</h2>
-            
-            <h3 class="center">Cookies</h3>
+          
 
 
-            <div class="container center">
-              <div class="row center">
-                <div class="col-50">
-                  <h4 id="constellation_cookie">Constellation Cookie</h4>
-                  <p>A soft chewy sugar cookie.</p>
-                </div>
-                <div class="col-50">
-                  <h4 id="galaxy_cookie">Galaxy Cookie</h4>
-                  <p>A buttercream frosted cookie.</p>
-                </div>
-              </div>
-            </div>
 
-            <h3 class="center">Tea</h3>
-            <div class="container center">
-              <div class="row">
-                <div class="col-50">
-                  <h4 id="milky_tea">Milkyway Tea</h4>
-                  <p>Milky earl grey tea.</p>
-                </div>
-                <div class="col-50">
-                  <h4 id="grey_tea">Earl Grey Gas Giant Tea</h4>
-                  <p>Strong earl grey tea.</p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </section>
-      </section>
-    </div>
 
     <!-- FOOTER -->
     <div id="footer">
