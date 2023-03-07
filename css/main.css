@@ -380,6 +380,10 @@ fieldset label {
   margin-bottom: 1rem;
 }
 
+.comment-area{
+  width: 90%;
+}
+
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 
 /* Extra small devices (phones, 600px and down) */
