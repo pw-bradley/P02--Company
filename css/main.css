@@ -350,6 +350,10 @@ input[type="radio"] {
   margin: 0 -16px;
   font-family: 'Lato', sans-serif;
 }
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
 .col-50 {
   -ms-flex: 50%; /* IE10 */
   flex: 50%;
@@ -366,6 +370,8 @@ input[type="radio"] {
   background-color: #f2f2f2;
   padding: 2rem 1rem 1.5rem 1rem;
   border-radius: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   min-width: 10rem;
 }
 input[type=text ] {
