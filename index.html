@@ -5,13 +5,12 @@
 
 
   To Do:
-  - Remove border around radio buttons wtih label
-  - Image as link should be smaller
-  - Replace all 'lorem ispum'
+  - DONE ___ Remove border around radio buttons wtih label
+  - DONE ___ Image as link should be smaller
+  - DONE ___ Replace all 'lorem ispum'
   - Replace Checkout buttons with form elements, flex container
 
-  - Combined elements section > all centre or left, whichever looks better.
-  - Make sure centered section are centered, if not fix them. 
+  - DONE ___ Combined elements section > all centre or left, whichever looks better.
   - Keep an eye on white space and alignments. 
   
 
@@ -132,32 +131,33 @@
                       </form>
                   </section>
                 </div>
-                  
-      
-                <section class="element">
+
+                <div class="box-item-text">
+                  <section class="element">
                     <h3>Radio Button with Label</h3>
-      
-                    <fieldset>
                       <form action="/action_page.php" class="radio-toolbar">
+                        <div class="radio-container">
                           <input type="radio" id="r1" name="radio_button" value="1">
-                          <label for="r1">1</label><br>
+                          <label for="r1">1</label>
+                        </div>
+                        <div class="radio-container">
                           <input type="radio" id="r2" name="radio_button" value="1">
-                          <label for="r2">2</label><br>
+                          <label for="r2">2</label>
+                        </div>
+                        <div class="radio-container">
                           <input type="radio" id="r3" name="radio_button" value="3">
                           <label for="r3">3</label>
+                        </div>
                       </form>
-                    </fieldset>
-                </section>
-              </div>
-            
+                  </section>
 
-              <div class="box-item-image">
                   <section class="element">
                       <h3>Image as a Link</h3>
                       <a href="https://www.frugalmomeh.com/galaxy-cupcakes.html">
-                          <img src="img/products/cupcakes.jpg" alt="Galaxy Cupcakes" class="image-link center">
+                          <img src="img/products/cupcakes.jpg" alt="Galaxy Cupcakes" class="example-img image-link round-img">
                       </a>
                   </section>
+                </div>
               </div>
             </section>
             <!-- // INTERACTIVE ELEMENTS SECTION -->
@@ -217,12 +217,12 @@
               <h3>Main Navigation</h3>
               <!-- Your main navigation (i.e. a collection of the 'navigation link' items) -->
               <div class="box center">
-                <a class="button-nav box-item-nav" href="#interactive_elements">Interactive Elements</a>
-                <a class="button-nav box-item-nav" href="#text_elements">Text Elements</a>
-                <a class="button-nav box-item-nav"  href="#combined_elements">Combined Elements</a>
-                <a class="button-nav box-item-nav"  href="#branding_ideas">Branding Ideas</a>
-                <a class="button-nav box-item-nav"  href="#brand_components">Assemble Brand Components</a>
-                <a class="button-nav box-item-nav"  href="#citations">Citations</a>
+                <a class="button-nav" href="#interactive_elements">Interactive Elements</a>
+                <a class="button-nav" href="#text_elements">Text Elements</a>
+                <a class="button-nav"  href="#combined_elements">Combined Elements</a>
+                <a class="button-nav"  href="#branding_ideas">Branding Ideas</a>
+                <a class="button-nav"  href="#brand_components">Assemble Brand Components</a>
+                <a class="button-nav"  href="#citations">Citations</a>
               </div>
             </section>
           </div>
@@ -231,21 +231,15 @@
         <div class="box">
           <div class="box-item-text">
             <section class="element">
-              <h3>Product Listing</h3>
-              <div class="center">
+              <h3>Other Pages</h3>
+              <div class="box center">
                 <a class="button-nav" href="product.html">Menu</a>
-                <p>Moved to different page.</p>
+                <a class="button-nav" href="checkout.html">Checkout</a>
+                <a class="button-nav" href="updates.html">Updates</a>
+                <a class="button-nav" href="about.html">About Us</a>
+                <a class="button-nav" href="contact.html">Contact Page</a>
+                <a class="button-nav" href="reviews.html">Reviews</a>
               </div>
-            </section> 
-          </div>
-          <div class="box-item-text">
-            <section class="element">
-              <h3>Checkout Cart</h3>
-              <div class="center">
-                <a class="button-nav" href="checkout.html">Checkout Page</a>
-                
-              </div>
-              <p class="center-align">Moved to different page.</p>
             </section>
           </div>
         </div>
@@ -257,18 +251,6 @@
       <!-- BRANDING IDEAS SECTION // -->
       <section id="branding_ideas" class="segment">
         <h2 class="center">Branding Ideas</h2>
-        <div class="center">
-          <a class="button-nav" href="about.html">About Us Page</a>
-          <p>Moved to different page.</p>
-        </div>
-      </section>
-      <!-- // BRANDING IDEAS  SECTION -->
-  
-
-
-      <!-- ASSEMBLE BRAND COMPONENTS SECTION // -->
-      <section id="brand_components" class="segment">
-        <h2 class="center">Assemble Brand Components</h2>
 
         <div class="box">
           <div class="box-item-text">
@@ -286,6 +268,7 @@
             </section>
           </div>
 
+
           <div class="box palette-container">
             <div class="colour-palette-block colour-1">#6963A3</div>
             <div class="colour-palette-block colour-2">#B7A1DA</div>
@@ -294,46 +277,71 @@
             <div class="colour-palette-block colour-5">#3F504F</div>
           </div>
         </div>
-      
-        <section class="element">
-          <h3>Potential Imagery / Art Direction</h3>
-      
-          <div class="center">
-            <a class="button-nav" href="product.html">Menu</a>
-            <a class="button-nav" href="checkout.html">Checkout Page</a>
-            <p>See images used in other segments.</p>
-          </div>
-        </section>
+      </section>
+      <!-- // BRANDING IDEAS SECTION // -->
 
+
+
+
+
+
+      <!-- BRANDING IDEAS COMPONENTS// -->
+      <section id="brand_components" class="segment">
+        <h2 class="center">Branding Components</h2>
         <section class="element">
-          <h3>Website Inspiration</h3>
           <div class="box">
-            <div class="box-item-text center">
-
-              <a href="https://themes.muffingroup.com/be/cafe/">
-                <img src="img/website_inspo/becafe.jpg" alt="BeCafe Website Front Page" class="image-link">
-              </a>
-              <p>BeCafe Website Front Page</p>
-            </div>
-
-            <div class="box-item-text center">
-              <a href="https://www.hytealounge.com/reservation/">
-                <img src="img/website_inspo/hytealounge.jpg" alt="HyTeaLounge Website Reservation Page" class="image-link">
-              </a>
-              <p>HY Tea Lounge Website Reservation Page</p>
-            </div>
-            <div class="box-item-text center">
-              <a href="https://www.thecoffeemovement.com/">
-                <img src="img/website_inspo/thecoffeemovement.jpg" alt="The Coffee Movement Front Page" class="image-link">
-              </a>
-              <p>The Coffee Movement Website Front Page</p>
+            <div class="box-item-text">
+              <section class="element">
+                <h3>Potential Imagery / Art Direction</h3>
+                <div class="box center">
+                  <a class="button-nav" href="product.html">Menu</a>
+                  <a class="button-nav" href="checkout.html">Checkout Page</a>
+                </div>
+                <p class="center">See images used in other segments.</p>
+              </section>
             </div>
           </div>
+
+
+          <div class="box">
+            <div class="box-item-text">
+            </div>
+          </div>
+          <section class="element">
+            <h3>Website Inspiration</h3>
+            <div class="box">
+              <div class="box-item-text center">
+
+                <a href="https://themes.muffingroup.com/be/cafe/">
+                  <img src="img/website_inspo/becafe.jpg" alt="BeCafe Website Front Page" class="image-link">
+                </a>
+                <p>BeCafe Website Front Page</p>
+              </div>
+
+              <div class="box-item-text center">
+                <a href="https://www.hytealounge.com/reservation/">
+                  <img src="img/website_inspo/hytealounge.jpg" alt="HyTeaLounge Website Reservation Page" class="image-link">
+                </a>
+                <p>HY Tea Lounge Website Reservation Page</p>
+              </div>
+              <div class="box-item-text center">
+                <a href="https://www.thecoffeemovement.com/">
+                  <img src="img/website_inspo/thecoffeemovement.jpg" alt="The Coffee Movement Front Page" class="image-link">
+                </a>
+                <p>The Coffee Movement Website Front Page</p>
+              </div>
+            </div>
+          </section>
         </section>
       </section>
-      <!-- // ASSEMBLE BRAND COMPONENTS SECTION -->
-    
+      <!-- // BRANDING COMPONENTS SECTION // -->
 
+      
+      
+
+        
+   
+    
 
 
       <!-- CITATIONS // -->

@@ -10,9 +10,8 @@ body {
 
 h1 {
   font-family: 'Gotham', sans-serif;
-  color: #6963A3;
   font-size: 3rem;
-  
+  color: #6963A3;
 }
 
 h2 {
@@ -94,6 +93,12 @@ img{
   /*rounds the corners of an image, https://www.w3schools.com/howto/howto_css_rounded_images.asp*/
   border-radius: 30%;
 }
+.example-img {
+  width: 80%;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
 .update-img {
   padding: 1rem;
   max-width: 200px;
@@ -129,8 +134,9 @@ img{
   justify-content: space-evenly;
   width: 100%;
   margin-bottom: 0.5rem;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-
 .colour-palette-block{
   /*blocks used to show colours in the style guide*/
 	font-family: 'Gotham', sans-serif;
@@ -151,6 +157,13 @@ img{
 .colour-4{  background-color: #CDF0CE; color: #3F504F;  }
 .colour-5{  background-color: #3F504F;  }
 
+.radio-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
 
 .center {
   /*centers objects inside a flexbox container*/
@@ -220,20 +233,24 @@ img{
 .button-nav {
   font-family: 'Gotham', sans-serif;
   display: inline-block;
+  text-align: center;  
 
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
   
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+
+  min-width: 15rem;
+  width: 30%;
 
   color: #3F504F;
   border: 3px solid  #3f504f52;
-  border-radius: 2rem;
+  border-radius: 1rem;
   text-decoration: none;
   transition-property: background-color; 
   transition-duration: 0.5s;
@@ -277,6 +294,20 @@ input[type=text]:focus, input[type=text]:hover, textarea:focus, textarea:hover{
   transition-duration: 0.5s;
 }
 
+/*Radio Buttons*/
+input[type="radio"] {
+  display: grid;
+  place-content: center;
+  height: 1em;
+  width: 1em;
+  margin: 0;
+  margin-left: 2rem;
+
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 /*Image Hover*/
 .image-link:hover, .image-link:focus {
   /* Opacity is lowered when clicked on */
@@ -308,7 +339,6 @@ input[type=text]:focus, input[type=text]:hover, textarea:focus, textarea:hover{
   background-color: white;
   transition-duration: 0.5s;
 }
-
 
 
 /*Checkout Information CSS */
@@ -348,6 +378,7 @@ input[type=text ] {
   justify-content: start;
   margin-left: 1rem;
 }
+
 textarea {
   font-family: 'Lato', serif;
   width: 100%;
