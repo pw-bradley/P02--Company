@@ -1,0 +1,177 @@
+
+
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- 
+	Percy Bradley - 301363216
+  Greg Withers  - 301382375
+	P02 Final Submission - March 13th, 2023
+  
+  To Do:
+
+  Percy:
+  - semantic issues
+  - padding of images
+  - button roundness consistency
+  - modal window for menu
+
+  Greg: 
+  - checkout buttons
+  - contact page forms
+  - quantity box
+  - remove style guide/revamp as landing page
+  - add to cart takes user to checkout page
+  
+  - Replace Checkout buttons with form elements, flex container
+
+  - Keep an eye on white space and alignments. 
+
+  References:
+  - Holding donut photo 2018, Alexander Grey on Unsplash: https://unsplash.com/photos/Ou8UZHLRI70
+   
+-->
+
+
+         <!-- This is the top of the window name -->
+        <title>Celestial Sweets | Home</title>
+      
+        <!-- Link CSS Sheets here -->
+        <link rel="stylesheet" href="css/main.css">
+		    <link rel="stylesheet" href="css/flexbox.css">
+        <link rel="stylesheet" href="css/fonts.css"> 
+        <link rel="stylesheet" href="css/hamburger.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/landing.css">
+
+    </head>
+
+
+    <body>
+
+      <header id="top">  
+        <!-- Top of screen banner image, acts as home button -->
+        <div class="header-banner">
+            <a class="header-link" href="index.html">
+              <img class="top-banner-logo" src="img/icons/Celestial_Sweets_logo.png" alt="Celestial Sweets logo, reminiscent of an old-fashioned ice cream shop sign"> 
+            </a>
+        </div>
+
+        <!-- Menu Button, adapted from lab materials-->
+        <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">
+          MENU
+        </button>
+  
+        <!-- Nav Menu Grid -->
+        <nav id="nav-items" class="grid">
+  
+          <div class="col-1of6">
+            <a href="product.html" class="button-bg1">Menu</a>
+          </div>
+  
+          <div class="col-1of6">
+            <a href="checkout.html" class="button-bg2">Checkout</a>
+          </div>
+  
+          <div class="col-1of6">
+            <a href="updates.html" class="button-bg3">Updates</a>
+          </div>
+  
+          <div class="col-1of6">
+            <a href="about.html" class="button-bg4">About</a>
+          </div>
+  
+          <div class="col-1of6">
+            <a href="contact.html" class="button-bg5">Contact Us</a>
+          </div>
+  
+          <div class="col-1of6">
+            <a href="reviews.html" class="button-bg6">Reviews</a>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Welcome Banner here -->
+        <div class="welcome-banner">
+          <img class="banner" src="img/products/donut_bg.jpg" alt="woman's hands holding a donut, offering it to the viewer. The donut has white, pink, and purple sprinkles. 2018 by Alexander Grey">
+        </div>
+        <h1 class="welcome-message">
+          The best treats in the galaxy!
+        </h1>
+
+   
+      <!-- Page Continer  -->
+    <div class="wrapper">
+      <div class="segment info-block">
+        <h2>
+          Open everyday. Serving space-themed treats and tea.
+        </h2>
+        <div>
+          &#9996;
+        </div>
+
+        <div class="location">
+          <h3>East Vancouver</h3>
+          2830 Bentall St, Vancouver, BC V5M 4H4
+          <div class="hours">
+            <div>
+              Monday - Thursday: 7am - 2pm
+            </div>
+            <div>
+              Friday - Sunday: 7am - 4pm
+            </div>
+          </div>
+        </div>
+        
+        <div class="location">
+          <h3>Gastown</h3>
+          302 W Hastings St, Vancouver, BC V6B 2N4
+          <div class="hours">
+            <div>
+              Everyday: 7am - 4pm
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        
+        <div class="segment">
+        <section class="element">
+          <a href="https://www.frugalmomeh.com/galaxy-cupcakes.html">
+              <img src="img/products/cupcakes.jpg" alt="Galaxy Cupcakes" class="example-img image-link round-img">
+          </a>
+      </section>
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <div class="wrapper">  
+        <div class="box">
+          <div class="box-item-image center">
+            <img src="img/icons/instaG.png" alt="Galaxy Cupcakes" class="logo-image">
+            <img src="img/icons/icon_facebook.png" alt="Galaxy Cupcakes" class="logo-image">
+            <img src="img/icons/twitter.png" alt="Galaxy Cupcakes" class="logo-image">
+            <img src="img/icons/icon_tiktok.png" alt="Galaxy Cupcakes" class="logo-image">
+          </div>
+        </div>
+
+        <p class="white-text center">
+          2023 © <span class="bold-inline-text">Celestial Sweets.</span> All rights reserved.  
+        </p>
+
+      </div>
+    </div>
+    
+    <!-- JS Scripts here so they do not affect performance -->
+    <script src="js/hamburger.js"></script>
+
+  </body>
+</html>

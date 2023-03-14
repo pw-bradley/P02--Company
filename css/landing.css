@@ -1,0 +1,40 @@
+.welcome-banner{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.banner {
+    object-fit: cover;
+    object-position: 50% 25%;
+    height: 20rem;
+    width: 100%;
+    opacity: 0.5;
+    margin-bottom: 0;
+}
+
+.welcome-message{
+    position: relative;
+    top: -215px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.info-block{
+    text-align: center;
+    margin-top: 0;
+}
+
+.hours{
+    margin-top: 1rem;
+}
+
+.location{
+    margin-bottom: 2rem;
+}
+
