@@ -38,3 +38,23 @@
     margin-bottom: 2rem;
 }
 
+.popular-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-item-pic{
+    object-fit: cover;
+    width: 100%;
+    max-height: 200px;
+    margin-top: 1rem;;
+    border-radius: 1rem;
+    transition: opacity 0.5s;
+
+}
+
+.popular-item-pic:hover{
+    opacity: 0.75;
+}
