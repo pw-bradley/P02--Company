@@ -63,6 +63,10 @@
     width: 100%;
 }
 
+.add-to-cart-link{
+    text-decoration: none;
+}
+
 .item-number{
     margin-left: 1rem;
 }
