@@ -31,6 +31,9 @@
   - Replace Checkout buttons with form elements, flex container
 
   - Keep an eye on white space and alignments. 
+
+  References:
+  - Holding donut photo 2018, Alexander Grey on Unsplash: https://unsplash.com/photos/Ou8UZHLRI70
    
 -->
 
@@ -44,6 +47,7 @@
         <link rel="stylesheet" href="css/fonts.css"> 
         <link rel="stylesheet" href="css/hamburger.css">
         <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/landing.css">
 
     </head>
 
@@ -91,332 +95,60 @@
           </div>
         </nav>
       </header>
-   
-        <!-- Page Continer  -->
-        <div class="wrapper">
 
-            <!-- INTERACTIVE ELEMENTS SECTION // -->
-            <section id="interactive_elements" class="segment">
-              <h1 class="center">Style Guide</h1>
-              <h2 class="center">Interactive Elements</h2>
-
-              <!-- white box segments -->
-              <div class="box">
-                <div class="box-item-text">
-                  
-                  <!-- content within the box -->
-                  <section class="element">
-                      <h3>In-text link</h3>
-                      <a href="https://en.wikipedia.org/w/index.php?title=Cafe&redirect=no" class="link">Wikipedia Page on Cafes</a>
-                  </section>
-    
-                  <section class="element">
-                      <h3>Navigation Link</h3>
-                      <div class="box center">
-                        <a class="button-nav" href="#citations">Citations</a>
-                      </div>
-                  </section>
-    
-                  <section class="element">
-                      <h3>Submit/Reset Buttons</h3>
-                      <input type="submit" value="Submit">
-                      <input type="reset" value="Reset">
-                  </section>
-    
-                  <section class="element">
-                      <h3>Text Input Field with Label</h3>
-                      <form action="/action_page.php">
-                          <label for="label">Label:</label>
-                          <input type="text" id="label" name="field"><br>
-                      </form>
-                  </section>
-                </div>
-
-                <div class="box-item-text">
-                  <section class="element">
-                    <h3>Radio Button with Label</h3>
-                      <form action="/action_page.php" class="radio-toolbar">
-                        <div class="radio-container">
-                          <input type="radio" id="r1" name="radio_button" value="1">
-                          <label for="r1">1</label>
-                        </div>
-                        <div class="radio-container">
-                          <input type="radio" id="r2" name="radio_button" value="1">
-                          <label for="r2">2</label>
-                        </div>
-                        <div class="radio-container">
-                          <input type="radio" id="r3" name="radio_button" value="3">
-                          <label for="r3">3</label>
-                        </div>
-                      </form>
-                  </section>
-
-                  <section class="element">
-                      <h3>Image as a Link</h3>
-                      <a href="https://www.frugalmomeh.com/galaxy-cupcakes.html">
-                          <img src="img/products/cupcakes.jpg" alt="Galaxy Cupcakes" class="example-img image-link round-img">
-                      </a>
-                  </section>
-                </div>
-              </div>
-            </section>
-            <!-- // INTERACTIVE ELEMENTS SECTION -->
-      
-
-
-      <!-- TEXT ELEMENTS SECTION // -->
-      <section id="text_elements" class="segment">
-        <h2 class="center">Text Elements</h2>
-
-        <div class="box">
-          <div class="box-item-text">
-            <section class="element">
-              <div id="headings">
-                <h1>Heading 1</h1>
-                <h2>Heading 2</h2>
-                <h3>Heading 3</h3>
-                <h4>Heading 4</h4>
-              </div>
-            </section>
-            </div>
-
-          <div class="box-item-text">
-            <section class="element">
-              <h3>A Paragraph</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-          </div>
-
-          <div class="box-item-text">
-            <section class="element">
-              <h3>Numbered Lists</h3>
-              <ol>
-                <li>One</li>
-                <li>Two</li>
-                <li>Three</li>
-              </ol>
-              <ol>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
-              </ol>
-            </section>
-          </div>
+      <!-- Welcome Banner here -->
+        <div class="welcome-banner">
+          <img class="banner" src="img/products/donut_bg.jpg" alt="woman's hands holding a donut, offering it to the viewer. The donut has white, pink, and purple sprinkles. 2018 by Alexander Grey">
         </div>
-      </section>
+        <h1 class="welcome-message">
+          The best treats in the galaxy!
+        </h1>
+
+      <!-- Page Continer  -->
+    <div class="wrapper">
+      <div class="segment info-block">
+        <h2>
+          Open everyday. Serving space-themed treats and tea.
+        </h2>
 
 
-
-      <!-- COMBINED ELEMENTS SECTION // -->
-      <section id="combined_elements" class="segment">
-        <h2 class="center">Combined Elements</h2>
-
-        <div class="box">
-          <div class="box-item-text">
-            <section class="element">
-              <h3>Main Navigation</h3>
-              <!-- Your main navigation (i.e. a collection of the 'navigation link' items) -->
-              <div class="box center">
-                <a class="button-nav" href="#interactive_elements">Interactive Elements</a>
-                <a class="button-nav" href="#text_elements">Text Elements</a>
-                <a class="button-nav"  href="#combined_elements">Combined Elements</a>
-                <a class="button-nav"  href="#branding_ideas">Branding Ideas</a>
-                <a class="button-nav"  href="#brand_components">Assemble Brand Components</a>
-                <a class="button-nav"  href="#citations">Citations</a>
-              </div>
-            </section>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="box-item-text">
-            <section class="element">
-              <h3>Other Pages</h3>
-              <div class="box center">
-                <a class="button-nav" href="product.html">Menu</a>
-                <a class="button-nav" href="checkout.html">Checkout</a>
-                <a class="button-nav" href="updates.html">Updates</a>
-                <a class="button-nav" href="about.html">About Us</a>
-                <a class="button-nav" href="contact.html">Contact Page</a>
-                <a class="button-nav" href="reviews.html">Reviews</a>
-              </div>
-            </section>
-          </div>
-        </div>
-      </section>
-      <!-- // COMBINED ELEMENTS SECTION -->
-
-
-
-      <!-- BRANDING IDEAS SECTION // -->
-      <section id="branding_ideas" class="segment">
-        <h2 class="center">Branding Ideas</h2>
-
-        <div class="box">
-          <div class="box-item-text">
-            <section class="element">
-              <h3>Fonts</h3>
-              <h4 class="gotham_font">Title Font: Gotham Black</h4>
-              <h4 class="lato_font">Body Font: Lato</h4>
-            </section>
-          </div>
-          <div class="box-item-text">
-            <section class="element">
-              <h3>Colour Palette</h3>
-
-              <p>Colours were chosen as a soft pastel galaxy-like scheme to match the space-based food items. They are meant to be vibrant without being too intense and overpowering, like the food served. The theme of space-based sweets is also integral to the brand, meaning that the colours should make this easily identifiable.</p>
-            </section>
-          </div>
-
-
-          <div class="box palette-container">
-            <div class="colour-palette-block colour-1">#6963A3</div>
-            <div class="colour-palette-block colour-2">#B7A1DA</div>
-            <div class="colour-palette-block colour-3">#E1DAE4</div>
-            <div class="colour-palette-block colour-4">#CDF0CE</div>
-            <div class="colour-palette-block colour-5">#3F504F</div>
-          </div>
-        </div>
-      </section>
-      <!-- // BRANDING IDEAS SECTION // -->
-
-
-
-
-
-
-      <!-- BRANDING IDEAS COMPONENTS// -->
-      <section id="brand_components" class="segment">
-        <h2 class="center">Branding Components</h2>
         <div class="element">
-          <div class="box">
-            <div class="box-item-text">
-              <section class="element">
-                <h3>Potential Imagery / Art Direction</h3>
-                <div class="box center">
-                  <a class="button-nav" href="product.html">Menu</a>
-                  <a class="button-nav" href="checkout.html">Checkout Page</a>
-                </div>
-                <p class="center">See images used in other segments.</p>
-              </section>
+          <h3>East Vancouver</h3>
+          2830 Bentall St, Vancouver, BC V5M 4H4
+          <div class="hours">
+            <div>
+              Monday - Thursday: 7am - 2pm
+            </div>
+            <div>
+              Friday - Sunday: 7am - 4pm
             </div>
           </div>
-
-
-          <div class="box">
-            <div class="box-item-text">
-            </div>
-          </div>
-          <section class="element">
-            <h3>Website Inspiration</h3>
-            <div class="box">
-              <div class="box-item-text center">
-
-                <a href="https://themes.muffingroup.com/be/cafe/">
-                  <img src="img/website_inspo/becafe.jpg" alt="BeCafe Website Front Page" class="image-link">
-                </a>
-                <p>BeCafe Website Front Page</p>
-              </div>
-
-              <div class="box-item-text center">
-                <a href="https://www.hytealounge.com/reservation/">
-                  <img src="img/website_inspo/hytealounge.jpg" alt="HyTeaLounge Website Reservation Page" class="image-link">
-                </a>
-                <p>HY Tea Lounge Website Reservation Page</p>
-              </div>
-              <div class="box-item-text center">
-                <a href="https://www.thecoffeemovement.com/">
-                  <img src="img/website_inspo/thecoffeemovement.jpg" alt="The Coffee Movement Front Page" class="image-link">
-                </a>
-                <p>The Coffee Movement Website Front Page</p>
-              </div>
-            </div>
-          </section>
         </div>
-      </section>
-      <!-- // BRANDING COMPONENTS SECTION // -->
+        
+        <div class="element">
+          <h3>Gastown</h3>
+          302 W Hastings St, Vancouver, BC V6B 2N4
+          <div class="hours">
+            <div>
+              Everyday: 7am - 4pm
+            </div>
+          </div>
+        </div>
+      </div>
 
-      
-      
 
         
-   
-    
-
-
-      <!-- CITATIONS // -->
-      <section id="citations" class="segment">
-        <h2 class="center">Citations</h2>
-        <div class="element">
-          <ul>
-            <li class="citation-item">
-              ApolloBox. n/d. <span class="bold-inline-text">Space Themed Cup And Saucer Set - Flower Shaped Edge - Ceramic - 4 Colors [Photo]</span>. Retrieved from <a class="link" href="https://www.theapollobox.com/product/sku1567304/space-themed-cup-and-saucer-set--flower-shaped-edge--ceramic--4-colors">TheApolloBox.com</a>
-            </li>  
-
-            <li class="citation-item">
-              Baird, Heather. Creator. 2018. <span class="bold-inline-text">Animal Constellation Cookies and my Favorite Fondant Marbling Technique [Blog]</span>. Retrieved from <a class="link" href="https://www.sprinklebakes.com/2017/01/animal-constellation-cookies-and-my.html">SprinkleBakes.com</a>
-            </li>
-
-            <li class="citation-item">
-              Davis, Eric. W. 2023. <span class="bold-inline-text">Profile Picture [Photo]</span>. Retrieved from <a class="link" href="https://www.researchgate.net/profile/Eric-Davis-16">ResearchGate.net</a>
-            </li>
-
-            <li class="citation-item">
-              Dudley, A. Creator. 2019. <span class="bold-inline-text"> Really Cute Reindeer Cake Pops [Photo]</span>. Retrieved from <a class="link" href="https://www.bakerella.com/really-cute-reindeer-cake-pops/">Bakerella.com</a>
-            </li>
-
-
-
-            <li class="citation-item">
-              Fisher, J. Creator. 2020. <span class="bold-inline-text"> Monster Eye Cookies [Photo]</span>. Retrieved from <a class="link" href="https://www.bakingyouhappier.com/monster-eye-cookies/">BakingYouHappier.com</a>
-            </li>
-
-            <li class="citation-item">
-              Frere-Jones, Tobias. Designer. 2000. <span class="bold-inline-text">Gotham [Font]</span>. Retrieved from <a class="link" href="https://www.cdnfonts.com/gotham.font">CDNFonts.com</a>
-            </li>
-
-            <li class="citation-item">
-              Lampman, Elizabeth. Creator. 2022. <span class="bold-inline-text">Galaxy Cupcakes [Blog]</span>. Retrieved from <a class="link" href="https://www.frugalmomeh.com/galaxy-cupcakes.html">FrugalMomEh.com</a>
-            </li>
-
-            <li class="citation-item">
-              Liu, V. Creator 2018. <span class="bold-inline-text">Galaxy honey shortbread cookies with lemon royal icing! [Photo]</span>. Retrieved from <a class="link" href="https://www.reddit.com/r/Baking/comments/9k69fb/galaxy_honey_shortbread_cookies_with_lemon_royal/">reddit.com/r/Baking</a>
-            </li>
-
-            <li class="citation-item">
-              Matas, Sol. Designer. 2011. <span class="bold-inline-text">Bitter [Font]</span>. Retrieved from <a class="link" href="https://fonts.google.com/specimen/Bitter">GoogleFonts.com</a>
-            </li>
-              
-            <li class="citation-item">
-              Mitsukoshi Isetan. Blogpost. 2014. <span class="bold-inline-text">新宿伊勢丹本館2F 「イセタンガール」 アイシングクッキー納品しました。 [Photo]</span>. Retrieved from <a class="link" href="https://micarina.exblog.jp/22036577/">micarnia.jp</a>
-            </li>                
-            
-            <li class="citation-item">
-              Marcus, C. Editor-in-chief. 2023. <span class="bold-inline-text"> Haircut Example [Photo]</span>. Retrieved from <a class="link" href="https://content.latest-hairstyles.com/wp-content/uploads/androgynous-cool-mohawk-with-shaved-sides.jpg">Latest-Hairstyles.com</a>
-
-            <li class="citation-item">
-              Muhammed, R. Designer. n/d. <span class="bold-inline-text">Social Media Icons Black And White Round [Icons]</span>. Retrieved from <a class="link" href="https://www.vecteezy.com/vector-art/9826484-social-media-icons-black-and-white-round">vecteezy.com</a>
-            </li>
-
-            <li class="citation-item">
-              Spiegel, Amber. Creator. 2015. <span class="bold-inline-text">How To Decorate Galaxy Cookies With Royal Icing! [YouTube Video]</span>. Retrieved from <a class="link" href="https://youtu.be/5xf1A8q2UA0">YouTube.com</a>
-            </li>
-
- 
-
-
-
-            <li class="citation-item">
-              Wu, F. LinkedIn. 2022. <span class="bold-inline-text"> Profile Picture [Photo]</span>. Retrieved from <a class="link" href="https://media.licdn.com/dms/image/C5603AQEyAzNh4QvVUg/profile-displayphoto-shrink_800_800/0/1567045489039?e=2147483647&v=beta&t=TqnQ3v7VjEocDrf4Kgikcp3JTeG1S9wd4YNIh6QHFCo">LinkedIn.com</a>
-            </li>
-          </ul>
-
-        </div>
+        <div class="segment">
+        <section class="element">
+          <!-- <a href="https://www.frugalmomeh.com/galaxy-cupcakes.html">
+              <img src="img/products/cupcakes.jpg" alt="Galaxy Cupcakes" class="example-img image-link round-img">
+          </a> -->
+          <p>
+            Curious about our style guide? Check it out <a href="styleguide.html">here.</a>
+          </p>
       </section>
-      <!-- CITATIONS // -->
+      </div>
     </div>
-  
-
 
 
     <!-- FOOTER -->
