@@ -41,7 +41,7 @@
 .popular-items{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -57,4 +57,12 @@
 
 .popular-item-pic:hover{
     opacity: 0.75;
+}
+
+.left-item{
+    margin-right: 0.75rem;
+}
+
+.item-right{
+    margin-left: 0.75rem;
 }
