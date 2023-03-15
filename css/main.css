@@ -39,6 +39,10 @@ p, ol, ul {
 	max-width: 60rem;
 }
 
+href {
+  overflow-x: hidden; 
+}
+
 
 /* 
   STYLE ELEMENTS -------------------
@@ -421,6 +425,18 @@ fieldset label {
   width: 90%;
 }
 
+.persona-box{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 .persona-info{
   display: flex;
   flex-direction: row;

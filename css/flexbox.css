@@ -11,13 +11,9 @@
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 
-	/*
-	-- Messes with the Indenting in Updates Page on Fullscreen View --
-
 	-webkit-justify-content: space-around;
 	-ms-justify-content: space-around;
 	justify-content: space-around;
-	*/
 }
 
 .box-item-image {
