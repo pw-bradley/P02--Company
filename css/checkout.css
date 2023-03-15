@@ -156,7 +156,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .item-image{
   object-fit: contain;
-  max-width: 20rem;
+  max-width: 19rem;
   border-radius: 2rem;
 }
 
@@ -204,6 +204,23 @@ input[type=number]::-webkit-outer-spin-button {
   margin-bottom: 1rem;
 }
 
+.sub-total-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  text-align: right;
+  align-items: end;
+}
+
+.gift-status{
+  margin-bottom: 1rem;
+}
+
+.sub-total-amount{
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 750px) {
@@ -231,10 +248,14 @@ input[type=number]::-webkit-outer-spin-button {
 
   .item-mod-links{
     text-align: center;
-
-
   }
 
-
+  .sub-total-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+  }
 
 }
