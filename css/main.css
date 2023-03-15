@@ -39,11 +39,6 @@ p, ol, ul {
 	max-width: 60rem;
 }
 
-href {
-  overflow-x: hidden; 
-}
-
-
 /* 
   STYLE ELEMENTS -------------------
 */
@@ -254,18 +249,19 @@ img{
 
   color: #3F504F;
   border: 3px solid  #3f504f52;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   text-decoration: none;
   transition-property: background-color; 
   transition-duration: 0.5s;
 }
+
 .button-nav:hover, .button-nav:focus {
   color: white;
   background-color: #3F504F;
 }
 
 /* Input Buttons */
-input[type=submit], input[type=reset], button {
+input[type=submit], input[type=reset], .btn {
   border-radius: 1rem;
   border: solid #6963A3;
   background-color: white;
@@ -319,20 +315,6 @@ input[type="radio"] {
   transition-duration: 0.5s;
 }
 
-/*Buttons for the checkout cart*/
-.btn{ 
-	width: 30px;
-	height: 30px;
-  
-	border-radius: 50%; /*round corners*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;
-  border: solid #6963A3;
-  background-color: white;
-  transition-duration: 0.5s;
-}
 .add-cart-btn{ 
 	border-radius: 50%; /*round corners*/
 	display: flex;
@@ -458,11 +440,14 @@ fieldset label {
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 700px) {
-  
+@media only screen and (max-width: 750px) {
+  .wrapper{ /*Wrapper to add margins to the website, Base loosely on: https://css-tricks.com/best-way-implement-wrapper-css*/
+    margin: 0% 5% 0;
+  }
   .persona-info{
     flex-direction: column;
   }
+
 }
 
 
