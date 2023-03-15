@@ -79,6 +79,13 @@ input[type=number]::-webkit-outer-spin-button {
     flex-direction: column;
 }
 
+.item-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 750px) {
     .checkout-item{
@@ -169,6 +176,21 @@ input[type=number]::-webkit-outer-spin-button {
 
 .item-number{
   margin-left: 1rem;
+}
+
+.stock-status{
+  color: green;
+}
+.stock-info{
+  color: grey;
+  margin-bottom: 1rem;
+}
+.stock-status, .stock-info{
+  font-size: 0.8rem;
+}
+
+.buttons{
+  margin-bottom: 1rem;
 }
 
 /* Extra small devices (phones, 600px and down) */
