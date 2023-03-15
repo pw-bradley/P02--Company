@@ -4,10 +4,10 @@
   border: 1px solid #ddd;
   margin: 0px;
   width: 40px;
-  height: 20px;
+  height: 40px;
+  padding-top: 10px;
   text-align: center;
   vertical-align: middle;
-  padding: 11px 0;
   background: #eee;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -47,7 +47,7 @@ input[type=number]::-webkit-outer-spin-button {
 .checkout-grid{
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .checkout-item{
@@ -175,6 +175,18 @@ input[type=number]::-webkit-outer-spin-button {
 @media only screen and (max-width: 750px) {
   .checkout-item{
       grid-template-columns: 1fr;
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
 }
