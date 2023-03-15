@@ -204,7 +204,7 @@ input[type=number]::-webkit-outer-spin-button {
   margin-bottom: 1rem;
 }
 
-.sub-total-container{
+.sub-total-container, .total-container{
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
@@ -216,10 +216,24 @@ input[type=number]::-webkit-outer-spin-button {
   margin-bottom: 1rem;
 }
 
-.sub-total-amount{
+.sub-total-amount, .final-order-total{
   font-weight: bold;
+  font-size: larger;
   margin-bottom: 1rem;
 }
+
+.final-row{
+  display: grid;
+  grid-template-columns: 1fr 7rem;
+  margin-bottom: 0.5rem;
+}
+
+.purchase-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -257,5 +271,24 @@ input[type=number]::-webkit-outer-spin-button {
     text-align: center;
     align-items: center;
   }
+
+  .total-container{
+    align-items: center;
+    margin-left: 4rem;
+  }
+
+  .final-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    text-align: left;
+    align-items: center;
+  }
+
+  .final-item{
+    text-align: right;
+  }
+
+
 
 }

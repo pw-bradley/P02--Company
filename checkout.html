@@ -175,7 +175,7 @@
                 Subtotal (3 items): $6.00
               </div>
 
-              <a class="link" href="#payment_form"><button>Proceed</button></a>
+              <a class="link" href="checkout.html#payment">Proceed</a>
             </div>
 
 
@@ -187,7 +187,7 @@
 
 
         <!-- PAYMENT FORM SECTION // -->
-        <section id="payment_form" class="segment">
+        <section id="payment" class="segment">
           <h2 class="center">Payment Form</h2>
 
           <div class="container">
@@ -213,13 +213,57 @@
                 <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
                 <label for="expyear">Exp Year</label>
                 <input type="text" id="expyear" name="expyear" placeholder="2023">
-
-                <input type="submit" value="Continue" class="center">
               </div>
             </div>
           </div>
 
+          <div class="total-container">
+            <div class="final-row">
+              <div class="final-item">
+                3 items:
+              </div>
+              <div>
+                $6.00
+              </div>
+            </div>
+
+
+            <div class="final-row">
+              <div class="final-item">
+                Shipping and Handling:
+              </div>
+              <div>
+                $2.50
+              </div>
+            </div>
+
+            <div class="final-row">
+              <div class="final-item">
+                Estimated GST/PST:
+              </div>
+              <div>
+                $1.02
+              </div>
+            </div>
+
+            <div class="final-row final-order-total">
+              <div class="final-item">
+                Order Total:
+              </div>
+              <div>
+                $9.52
+              </div>
+            </div>
+          </div>
+
+          <div class="purchase-button">
+            <input type="submit" value="Purchase">
+          </div>
+
+
         </section>
+
+        
       </div>
 
     <!-- FOOTER -->
