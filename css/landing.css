@@ -11,12 +11,12 @@
     height: 20rem;
     width: 100%;
     opacity: 0.5;
-    margin-bottom: -2rem;
+    margin-bottom: -3rem;
 }
 
 .welcome-message{
     position: relative;
-    top: -190px;
+    top: -12rem;
     color: white;
     display: flex;
     justify-content: center;
