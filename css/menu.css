@@ -47,20 +47,25 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
-.add-to-cart-container{
+.window-change-container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: end;
-    padding-top: 5rem;
+    justify-content: flex-end;
+    padding-top: 5%;
 }
 
 .item-size-button{
     margin-top: 1rem;
     margin-left: 1rem;
+}
+.window-change-button{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 7rem;
 }
 
 .item-quantity{
@@ -73,13 +78,49 @@
     width: 10rem;
 }
 
-.add-to-cart-link{
+.cart-buttons{
     text-decoration: none;
 }
 
 .item-number{
     margin-left: 1rem;
 }
+
+
+.blackout-overlay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: rgba(0, 0, 0, 0.45);
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .modal-window{
+    background-color: white;
+    color: black;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+  
+    border-radius: 0.5rem;
+  }
+  
+  .modal-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.65rem;
+  }
+  .modal-text{
+    margin-bottom: 0.65rem;
+  }
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 750px) {
@@ -90,7 +131,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: start;
+        justify-content: flex-start;
     }
     .add-to-cart-container{
         display: flex;
@@ -99,20 +140,12 @@
         justify-content: end;
     }
 
-    .item-price, .item-title, .item-description, .item-quantity, .item-add-to-cart{
+    .item-price, .item-title, .item-description, .item-add-to-cart{
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .item-size-button, .item-add-to-cart{
-        width: 100%;
-    }
-
-    .item-size-button{
-        margin-top: 1rem;
-        margin-left: 0;
-    }
 
     .item-image{
         object-fit: fill;
