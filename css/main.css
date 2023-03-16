@@ -42,7 +42,7 @@ h4 {
 
 
 #footer { /*CSS for the black bar footer at the bottom of the website*/
-  background-color: #3F504F;
+  background-color: #B7A1DA;
   color: white;
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -53,8 +53,11 @@ h4 {
 #footer a:link {
   color: #CDF0CE
 }
+#footer a:hover{
+  color: #E1DAE4;
+}
 #footer a:visited {
-color: #B7A1DA
+color: #6963A3
 }
 
 
