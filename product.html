@@ -1,7 +1,7 @@
 <!-- 
 	Percy Bradley - 301363216
   Greg Withers  - 301382375
-	P02 Check In 3 - March 8th, 2023
+  P02 Final Submission - March 15th, 2023
 
   Reference: 
 
@@ -78,115 +78,152 @@
        <!-- MENU SECTION // -->
       <section id="product-page" class="segment">
         <h1 class="center">Menu</h1>
-      
-        <div class="element">
-          <div class="blackout-overlay">
-            <div class="modal-window">
-              <div class="menu-item">
-                <div class="item-left">
-                  <img class="item-image" src="img/products/tea.jpg" alt="flower-shaped cup of tea on a blue and yellow moon dish. There is a spoon in the tea cup.">
-                </div>
-      
-                <div class="item-right">
-                  <div class="item-title">
-                    <h2>Milkyway Tea</h2>
-                  </div>
-                  <div class="item-price">
-                    <h3>$6.20</h3>
-                  </div>
-                  <div class="item-description">
-                    Out-of-this-world milkiness. Smooth and delicious Earl Grey tea.
-                  </div>
-                  <div class="item-size-container">
-                    <h3>Size</h3>
-                    <button class="item-size-button btn">S</button>
-                    <button class="item-size-button btn">M</button>
-                    <button class="item-size-button btn">L</button>
-                  </div>
-                  <div class="item-quantity">
-                    <h3>Quantity</h3>
-                    <input class="item-number" type="number" id="quantity-1" name="quantity">
-                  </div>
-                  
-                  <div class="window-change-container">
-                    <a class="cart-buttons" href="checkout.html"><button class="window-change-button btn">Add to cart</button></a>
-                    <a class="cart-buttons" href="product.html"><button class="window-change-button btn">Close</button></a>
-                  </div>
+          <div class="element">
 
-                </div>
-              </div>  
-            </div> 
+          <!-- Menu -->
+          
+            <h2>Tea</h2>
+            <div class="category">
+              <div class="box-item-text center">
+                <img src="img/products/tea.jpg" alt="Galaxy Cupcakes" class="menu-img image-link round-img" onclick="displayTea()">
+                <h3>Milkyway Tea</h3>
+                <p>$6.20</p>
+              </div>
+            </div>
           </div>
-      
 
-          <!-- Begin New Menu -->
-          <div class="menu-grid">
-
-            <!-- Menu item 1 -->
-            <a class="button-nav" href="menu_milkytea.html">Test</a>
-
-            <!-- Menu item 2 -->
-            <div class="menu-item">
-              <div class="item-left">
-                <img class="item-image" src="img/products/animal_cookies.jpg" alt="cookies in the shape of astrological constellations, there is a cat, rabbit, and sea lion.">
+          <div class="element">
+            <h2>Cookies</h2>
+            <div class="box">
+              <div class="box-item-text center">
+                <img src="img/products/animal_cookies.jpg" alt="Galaxy Cupcakes" class="menu-img image-link round-img" onclick="displayConCookie()">
+                <h3>Constellation Cookie</h3>
+                <p>$2.99</p>
               </div>
-
-              <div class="item-right">
-                <div class="item-title">
-                  <h2>Constellation Cookie</h2>
-                </div>
-                <div class="item-price">
-                  <h3>$2.99</h3>
-                </div>
-                <div class="item-description">
-                  Soft and chewy butter cookie. Get your own or a box and share the whole cosmos!
-                </div>
-                <div class="item-size-container">
-                  <h3>Size</h3>
-                  <button class="item-size-button btn">Single</button>
-                  <button class="item-size-button btn">Box</button>
-                </div>
-                <div class="item-quantity">
-                  <h3>Quantity</h3>
-                  <input class="item-number" type="number" id="quantity-2" name="quantity">
-                </div>
-                <a class="add-to-cart-link" href="checkout.html">
-                  <button class="item-add-to-cart btn">Add to cart</button>
-                </a>
+              <div class="box-item-text center">
+                <img src="img/products/cookies.jpg" alt="Galaxy Cupcakes" class="menu-img image-link round-img" onclick="displayGalCookie()">
+                <h3>Galaxy Cookie</h3>
+                <p>$2.99</p>
               </div>
-            </div>  
+            </div>
+          </div>
+
               
-            <!-- Menu item 3 -->
-            <div class="menu-item">
-              <div class="item-left">
-                <img class="item-image" src="img/products/cookies.jpg" alt="cookies decorated like swirling galaxies">
-              </div>
+          <!-- Menu item 1 -->
+          <div id="tea">
+            <div class="blackout-overlay">
+              <div class="modal-window">
+                <div class="menu-item">
+                  <div class="item-left">
+                    <img class="item-image" src="img/products/tea.jpg" alt="flower-shaped cup of tea on a blue and yellow moon dish. There is a spoon in the tea cup.">
+                  </div>
 
-              <div class="item-right">
-                <div class="item-title">
-                  <h2>Galaxy Cookie</h2>
-                </div>
-                <div class="item-price">
-                  <h3>$2.99</h3>
-                </div>
-                <div class="item-description">
-                  Far out buttercream frosting with a nebula swirl. Get your own or a box and share the love!
-                </div>
-                <div class="item-size-container">
-                  <h3>Size</h3>
-                  <button class="item-size-button btn">Single</button>
-                  <button class="item-size-button btn">Box</button>
-                </div>
-                <div class="item-quantity">
-                  <h3>Quantity</h3>
-                  <input class="item-number" type="number" id="quantity-3" name="quantity">
-                </div>
-                <a class="add-to-cart-link" href="checkout.html">
-                  <button class="item-add-to-cart btn">Add to cart</button>
-                </a>
-              </div>
-            </div>  
+                  <div class="item-right">
+                    <div class="item-title">
+                      <h2>Milkyway Tea</h2>
+                    </div>
+                    <div class="item-price">
+                      <h3>$6.20</h3>
+                    </div>
+                    <div class="item-description">
+                      Out-of-this-world milkiness. Smooth and delicious Earl Grey tea.
+                    </div>
+                    <div class="item-size-container">
+                      <h3>Size</h3>
+                      <button class="item-size-button btn">S</button>
+                      <button class="item-size-button btn">M</button>
+                      <button class="item-size-button btn">L</button>
+                    </div>
+                    <div class="item-quantity">
+                      <h3>Quantity</h3>
+                      <input class="item-number" type="number" id="quantity-1" name="quantity">
+                    </div>
+                    <div class="window-change-container">
+                      <a class="cart-buttons" href="checkout.html"><button class="window-change-button btn">Add to cart</button></a>
+                      <button onclick="hideTea()" class="window-change-button btn">Close</button>
+                    </div>
+                  </div>
+                </div>  
+              </div> 
+            </div>
           </div>
+        
+          <!-- Menu item 2 -->
+          <div id="conCookie">
+            <div class="blackout-overlay">
+              <div class="modal-window">
+                <div class="menu-item">
+                  <div class="item-left">
+                    <img class="item-image" src="img/products/animal_cookies.jpg" alt="cookies in the shape of astrological constellations, there is a cat, rabbit, and sea lion.">
+                  </div>
+
+                  <div class="item-right">
+                    <div class="item-title">
+                      <h2>Constellation Cookie</h2>
+                    </div>
+                    <div class="item-price">
+                      <h3>$2.99</h3>
+                    </div>
+                    <div class="item-description">
+                      Soft and chewy butter cookie. Get your own or a box and share the whole cosmos!
+                    </div>
+                    <div class="item-size-container">
+                      <h3>Size</h3>
+                      <button class="item-size-button btn">Single</button>
+                      <button class="item-size-button btn">Box</button>
+                    </div>
+                    <div class="item-quantity">
+                      <h3>Quantity</h3>
+                      <input class="item-number" type="number" id="quantity-2" name="quantity">
+                    </div>
+                    <div class="window-change-container">
+                      <a class="cart-buttons" href="checkout.html"><button class="window-change-button btn">Add to cart</button></a>
+                      <button onclick="hideConCookie()" class="window-change-button btn">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Menu item 3 -->
+          <div id="galCookie">
+            <div class="blackout-overlay">
+              <div class="modal-window">
+                <div class="menu-item">
+                  <div class="item-left">
+                    <img class="item-image" src="img/products/cookies.jpg" alt="cookies decorated like swirling galaxies">
+                  </div>
+
+                  <div class="item-right">
+                    <div class="item-title">
+                      <h2>Galaxy Cookie</h2>
+                    </div>
+                    <div class="item-price">
+                      <h3>$2.99</h3>
+                    </div>
+                    <div class="item-description">
+                      Far out buttercream frosting with a nebula swirl. Get your own or a box and share the love!
+                    </div>
+                    <div class="item-size-container">
+                      <h3>Size</h3>
+                      <button class="item-size-button btn">Single</button>
+                      <button class="item-size-button btn">Box</button>
+                    </div>
+                    <div class="item-quantity">
+                      <h3>Quantity</h3>
+                      <input class="item-number" type="number" id="quantity-2" name="quantity">
+                    </div>
+                    <div class="window-change-container">
+                      <a class="cart-buttons" href="checkout.html"><button class="window-change-button btn">Add to cart</button></a>
+                      <button onclick="hideGalCookie()" class="window-change-button btn">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
     </div>
@@ -219,6 +256,7 @@
     <!-- JS Scripts here so they do not affect performance -->
     <script src="js/hamburger.js"></script>
     <script src="js/quantity.js"></script>
+    <script src="js/visibility.js"></script>
 
   </body>
 </html>

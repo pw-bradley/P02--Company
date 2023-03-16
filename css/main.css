@@ -22,6 +22,7 @@ h2 {
 
 h3 {
   font-family: 'Gotham', sans-serif;
+  color: #3F504F;
 }
 
 h4 {
@@ -33,10 +34,6 @@ h4 {
 }
 .lato_font {
   font-family: 'Lato', sans-serif;
-}
-
-p, ol, ul {
-	max-width: 60rem;
 }
 
 /* 
@@ -106,24 +103,6 @@ img{
 .menu-img-big, .menu-img-small {
   padding: 1rem;
 
-}
-.menu-img-big {
-  width: 70%;
-  border-radius: 10%;
-  min-width: 200px;
-  min-width: 200px;
-  max-width: 600px; 
-  max-height: 600px;
-  padding: 1rem;
-}
-.menu-img-small{
-  width: 50%;
-  border-radius: 30%;
-  min-width: 200px;
-  min-width: 200px;
-  max-width: 400px; 
-  max-height: 400px;
-  padding: 1rem;
 }
 
 .palette-container{
@@ -448,8 +427,6 @@ fieldset label {
     padding: 1rem 0.5rem;
     background:white;
     border-radius: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
   }
   .persona-info{
     flex-direction: column;
