@@ -432,6 +432,11 @@ fieldset label {
     flex-direction: column;
   }
 
+  .col-50 {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+  }
+
 }
 
 

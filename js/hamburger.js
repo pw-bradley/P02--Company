@@ -1,4 +1,6 @@
 /*
+	IAT 339 Lab Materials
+
 	By setting 'use strict' we ensure that we are building clean code and not breaking any rules. Helps with future-friendliness.
 */
 'use strict';
